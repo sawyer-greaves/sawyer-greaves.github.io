@@ -3,7 +3,7 @@ title: Total station visualization
 description: A Python tool for exploring the spatial distribution of archaeological artifacts with category filters and automatic data cleanup.
 category: Scientific computing · Visualization
 period: "June 2025"
-order: 4
+order: 6
 image: /images/total-station.webp
 imageAlt: A three-dimensional visualization of archaeological artifact positions.
 tags: [Python, Data visualization, Data processing]
@@ -27,4 +27,4 @@ The tool plots artifact locations so their density and distribution can be exami
 
 The project uses Python for data processing and visualization.
 
-[View the code on GitHub](https://github.com/Rodeosocks/Total-Station-Visualization)
+[View the code on GitHub](https://github.com/sawyer-greaves/Total-Station-Visualization)

@@ -104,7 +104,7 @@ Review your affiliation, research description, project dates, and contact links 
 
 ## Publish with GitHub Pages
 
-The project includes a GitHub Actions deployment workflow for GitHub Pages. It supports pushes to `main` or `master` and determines the site's base path from the Pages configuration, so a repository site such as `https://rodeosocks.github.io/portfolio_website/` can load its pages and assets correctly.
+The project includes a GitHub Actions deployment workflow for GitHub Pages. It supports pushes to `main` or `master` and determines the site's base path from the Pages configuration, so a repository site such as `https://sawyer-greaves.github.io/portfolio_website/` can load its pages and assets correctly.
 
 1. Back up your current repository before replacing the Jekyll source.
 2. Put the **contents of this project folder** at the root of your website repository, including `.github/`, `docs/`, `templates/`, and `package.json`. Remove the old Jekyll build files rather than mixing the two frameworks.

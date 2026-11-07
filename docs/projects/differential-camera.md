@@ -29,5 +29,5 @@ This project combined mechanical design and fabrication with circuit design, mic
 
 ## Code and CAD
 
-- [View the code on GitHub](https://github.com/Rodeosocks/Laser-Pointer-Robot)
+- [View the code on GitHub](https://github.com/sawyer-greaves/Laser-Pointer-Robot)
 - [Explore the CAD in Onshape](https://cad.onshape.com/documents?resourceType=folder&nodeId=37651e437204c166a238473c&column=modifiedAt&sortOrder=desc)

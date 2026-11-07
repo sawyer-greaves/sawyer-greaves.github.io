@@ -11,8 +11,8 @@ I'm interested in how robots can interact with and control their surroundings in
 
 ## Research interests
 
+- **Space robotics:** Developing tools and systems for work beyond Earth.
 - **Robotics and controls:** Connecting models, control strategies, and physical behavior.
 - **Magnetic manipulation:** Exploring the motion of conductive objects under magnetic actuation.
-- **Space robotics:** Developing tools and systems for work beyond Earth.
 
 I'm applying for PhD positions in robotics and controls. [Get in touch](../about.md#get-in-touch) to discuss research opportunities, or visit [publications](../publications.md) for research outputs as they become available.

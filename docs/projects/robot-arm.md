@@ -3,7 +3,7 @@ title: Five-degree-of-freedom robot arm
 description: A robot arm with a gripper, built with a focus on circuit design and integrating electronics with the mechanism.
 category: Robotics · Electronics
 period: "July–December 2024"
-order: 5
+order: 4
 image: /images/robot-arm.webp
 imageAlt: A five-degree-of-freedom robot arm with a gripper.
 tags: [Circuit design, C++, Robotics, 3D printing]

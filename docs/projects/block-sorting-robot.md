@@ -3,7 +3,7 @@ title: Autonomous block-sorting robot
 description: A team-built robot that navigates an arena, collects and sorts colored blocks, and returns them to a home position.
 category: Robotics · Autonomy
 period: "August–December 2024"
-order: 2
+order: 3
 image: /images/block-sorting-robot.webp
 imageAlt: The autonomous block-collecting and sorting robot built for a University of Utah engineering competition.
 tags: [Autonomous systems, C++, Microcontrollers, Mechanical design, Electronics]

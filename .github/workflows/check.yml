@@ -24,4 +24,4 @@ jobs:
         run: npm run docs:build
         env:
           VITEPRESS_BASE: /portfolio_website/
-          VITEPRESS_HOSTNAME: https://rodeosocks.github.io
+          VITEPRESS_HOSTNAME: https://sawyer-greaves.github.io

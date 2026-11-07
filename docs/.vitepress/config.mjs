@@ -53,7 +53,7 @@ export default defineConfig({
     docFooter: { prev: false, next: false },
     search: { provider: 'local' },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Rodeosocks', ariaLabel: 'Sawyer Greaves on GitHub' },
+      { icon: 'github', link: 'https://github.com/sawyer-greaves', ariaLabel: 'Sawyer Greaves on GitHub' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/sawyer-greaves-555616277/', ariaLabel: 'Sawyer Greaves on LinkedIn' }
     ],
     footer: {
