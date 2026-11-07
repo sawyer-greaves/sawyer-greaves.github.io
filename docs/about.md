@@ -5,8 +5,6 @@ description: Robotics graduate student at the University of Utah, with interests
 
 # About me
 
-![headshot](/images/profile_pic.webp)
-
 I'm Sawyer Greaves, a robotics graduate student at the University of Utah. My interests center on designing robots to explore space. This includes everything from mechanism design to motion planning. I'm applying for PhD positions where I can continue developing these interests through research.
 
 My work in the [Magnetic and Medical Robotics Lab](https://mmrobotics.mech.utah.edu/) includes simulation and control for magnetic manipulation in space. I am interested in the "full-stack" of robotics: designing mechanisms, building circuits, writing control software, the theory behind robotics and bringing those pieces together.
