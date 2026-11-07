@@ -11,6 +11,10 @@ featured: false
 layout: doc
 ---
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Broadhead manufacturing device
 
 **University of Utah · Team of four · January 2025–December 2025**
@@ -32,4 +36,14 @@ I designed the electrical panel, programmed the PLC, sourced and implemented the
 This machine is now in production use at the Grimreaper Broadheads facility. 
 
 ![Industrial manufacturing device with vibratory bowl and induction heater](/images/grimreaper_alt.webp)
-![Video of working machine](/images/grimreaper.webm)
+<video
+  controls
+  playsinline
+  preload="metadata"
+  :src="withBase('/images/grimreaper.webm')"
+  :poster="withBase('/images/grimreaper.webp')"
+  style="width: 100%; height: auto;"
+  aria-label="Video of the broadhead manufacturing machine"
+>
+  <a :href="withBase('/images/grimreaper.webm')">Download the machine demonstration video</a>.
+</video>

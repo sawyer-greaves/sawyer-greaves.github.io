@@ -23,5 +23,5 @@ jobs:
       - name: Check VitePress production build
         run: npm run docs:build
         env:
-          VITEPRESS_BASE: /portfolio_website/
+          VITEPRESS_BASE: /
           VITEPRESS_HOSTNAME: https://sawyer-greaves.github.io

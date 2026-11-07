@@ -20,7 +20,7 @@ Across that work, I've developed expertise in Python, ROS2, C++, microcontroller
 ## Beyond the lab
 
 I'm from Meridian, Idaho, and I'm a soccer fan. Come on you Gunners! Here's a picture of me at the summit of Mt. Kilimanjaro from this summer.
-[Summit of Kilimanjaro](/images/kilimanjaro.webp)
+![Summit of Kilimanjaro](/images/kilimanjaro.webp)
 
 ## Resume
 
