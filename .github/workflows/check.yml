@@ -1,0 +1,27 @@
+name: Check website changes
+
+on:
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+      - name: Install dependencies
+        # Commit the lockfile from your first successful npm install, then use npm ci here.
+        run: npm install
+      - name: Check VitePress production build
+        run: npm run docs:build
+        env:
+          VITEPRESS_BASE: /portfolio_website/
+          VITEPRESS_HOSTNAME: https://rodeosocks.github.io

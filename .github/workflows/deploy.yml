@@ -1,0 +1,60 @@
+name: Deploy website to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Deploy only the repository's default branch, even if main and master both exist.
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+      - name: Read GitHub Pages URL
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install dependencies
+        # A genuine lockfile could not be generated in the restricted authoring environment.
+        # After your first successful local npm install, commit package-lock.json and
+        # replace this command with npm ci for reproducible dependency installation.
+        run: npm install
+      - name: Build VitePress website
+        run: npm run docs:build
+        env:
+          VITEPRESS_BASE: ${{ steps.pages.outputs.base_path }}/
+          VITEPRESS_HOSTNAME: ${{ steps.pages.outputs.origin }}
+      - name: Upload built website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
