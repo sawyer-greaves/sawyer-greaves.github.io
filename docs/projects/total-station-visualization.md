@@ -1,6 +1,6 @@
 ---
 title: Total station visualization
-description: A Python tool for exploring the spatial distribution of archaeological artifacts with category filters and automatic data cleanup.
+description: I built a Python tool to visualize archaeological artifact locations in three dimensions, with category filters and automatic data cleanup.
 category: Scientific computing · Visualization
 period: "June 2025"
 order: 6
@@ -15,16 +15,16 @@ layout: doc
 
 **University of Pittsburgh archaeology · June 2025**
 
-I built a tool to visualize three-dimensional positioning and categorical data for archaeological artifacts.
+I built a Python tool for visualizing archaeological artifact locations from total station data. The tool combines three-dimensional positions with artifact categories so their spatial distribution can be explored.
 
 ![A three-dimensional visualization of archaeological artifact positions.](/images/total-station.webp)
 
 ## Exploring the data
 
-The tool plots artifact locations so their density and distribution can be examined. Category filters make it possible to focus on particular types of objects, and automatic data cleanup supports the visualization workflow.
+Users can filter by category to examine the density and distribution of particular artifact types. I also implemented automatic data cleanup to prepare the records for visualization.
 
 ## Implementation
 
-The project uses Python for data processing and visualization.
+This project gave me experience turning research data into a visualization tool for another discipline, using Python for both data processing and plotting.
 
 [View the code on GitHub](https://github.com/sawyer-greaves/Total-Station-Visualization)

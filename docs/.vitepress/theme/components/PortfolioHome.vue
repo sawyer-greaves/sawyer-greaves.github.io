@@ -17,8 +17,8 @@ const research = computed(() => entries.find(item => item.collection === 'resear
         <p class="intro-headline">{{ page.headline }}</p>
         <p class="intro-bio">{{ page.bio }}</p>
         <div class="intro-actions">
-          <a class="button button-primary" :href="withBase('/research/')">Explore my research <span aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" :href="withBase(page.resume)">View résumé <span aria-hidden="true">↓</span></a>
+          <a class="button button-primary" :href="withBase('/research/')">View research <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" :href="withBase(page.resume)">View CV <span aria-hidden="true">↓</span></a>
         </div>
         <p class="availability"><span aria-hidden="true"></span>{{ page.availability }}</p>
       </div>
@@ -39,7 +39,7 @@ const research = computed(() => entries.find(item => item.collection === 'resear
           <h3><a :href="withBase(research.url)">{{ research.title }}</a></h3>
           <p>{{ research.description }}</p>
           <ul class="tag-list" aria-label="Research topics"><li v-for="tag in research.tags" :key="tag">{{ tag }}</li></ul>
-          <a class="research-link" :href="withBase(research.url)">Explore the work <span aria-hidden="true">↗</span></a>
+          <a class="research-link" :href="withBase(research.url)">Read about the project <span aria-hidden="true">↗</span></a>
         </div>
         <a v-if="research.image" :href="withBase(research.url)" class="research-image" :aria-label="`Read about ${research.title}`"><img :src="withBase(research.image)" :alt="research.imageAlt" loading="lazy" decoding="async" width="924" height="850" /></a>
       </article>

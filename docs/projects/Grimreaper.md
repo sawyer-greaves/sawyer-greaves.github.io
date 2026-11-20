@@ -1,13 +1,13 @@
 ---
-title: "Broadhead manufacturing device"
-description: "An industrial hunting broadhead manufacturing device to apply a nylon coating to threads for reuseable thread-locker."
-category: "Manufacturing · Full stack"
+title: "Automated thread-coating machine"
+description: "Our senior design team built a machine that applies nylon to hunting broadhead threads. I designed the electrical panel, programmed the PLC, and integrated induction heating."
+category: "Manufacturing · Automation"
 period: "January 2025–December 2025"
 order: 2
 image: /images/grimreaper.webp
-imageAlt: "Industrial manufacturing device with vibratory bowl and induction heater"
+imageAlt: "Thread-coating machine with a vibratory bowl feeder, rotary indexing table, and induction heater."
 tags: [Manufacturing, Electrical Systems, PLC]
-featured: false
+featured: true
 layout: doc
 ---
 
@@ -15,27 +15,27 @@ layout: doc
 import { withBase } from 'vitepress'
 </script>
 
-# Broadhead manufacturing device
+# Automated thread-coating machine
 
 **University of Utah · Team of four · January 2025–December 2025**
 
-An industrial partner at Grimreaper Broadheads sponsored our senior design team to build an autonomous manufacturing device to apply a nylon coating to the threads of a variety of hunting broadheads for reuseable thread-locker.
+Our four-person senior design team built an automated thread-coating machine sponsored by Grim Reaper Broadheads. The machine applies a nylon coating to hunting broadhead threads to provide a reusable thread-locking feature.
 
-![Industrial manufacturing device with vibratory bowl and induction heater](/images/grimreaper.webp)
+![Thread-coating machine with a vibratory bowl feeder, rotary indexing table, and induction heater.](/images/grimreaper.webp)
 
 ## How it works
 
-The broadheads are placed into the large gray vibratory bowl, where they are all oriented, ordered, and placed into the rotary index table holes. The rotary table then rotates until the broadhead is within the red induction coils, where it is heated up to over 600°F. Then it rotates into the spray chamber and is coated with nylon powder. The system consists of a electronics, water cooling, pneumatics and PLC programming.
+A vibratory bowl feeder orients the broadheads and feeds them into a rotary indexing table. The table moves each part through an induction-heating station and then a spray chamber, where nylon powder is applied. The machine integrates electrical controls, water cooling, pneumatics, and a programmable logic controller (PLC).
 
 ## My contribution
 
-I designed the electrical panel, programmed the PLC, sourced and implemented the induction heating system and designed the passive orienting mechanism. 
+I designed the electrical panel, programmed the PLC, sourced and integrated the induction-heating system, and designed the passive mechanism that orients the parts. This work required coordinating the machine's electrical controls with its heating and material-handling systems.
 
-## Results and resources
+## Outcome
 
-This machine is now in production use at the Grimreaper Broadheads facility. 
+The machine is in production use at the Grim Reaper Broadheads facility.
 
-![Industrial manufacturing device with vibratory bowl and induction heater](/images/grimreaper_alt.webp)
+![Another view of the assembled thread-coating machine.](/images/grimreaper_alt.webp)
 
 <div class="project-video">
 <video controls playsinline preload="metadata" :src="withBase('/images/grimreaper.webm')" :poster="withBase('/images/grimreaper.webp')" style="width: 100%; height: auto;" aria-label="Video of the broadhead manufacturing machine">

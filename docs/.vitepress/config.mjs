@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // GitHub Actions supplies these automatically. Local previews work at /.
 const base = `/${(process.env.VITEPRESS_BASE || '').replace(/^\/+|\/+$/g, '')}/`.replace(/^\/\/$/, '/')
 const hostname = (process.env.VITEPRESS_HOSTNAME || '').replace(/\/$/, '')
-const description = 'Sawyer Greaves is a robotics graduate student at the University of Utah, working across controls, simulation, and robotic hardware.'
+const description = 'Sawyer Greaves studies robotics and mechanical engineering at the University of Utah, with research in rigid-body simulation and magnetic manipulation. Applying to PhD programs in robotics.'
 
 export default defineConfig({
   lang: 'en-US',

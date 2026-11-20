@@ -2,25 +2,25 @@
 layout: page
 title: Sawyer Greaves
 titleTemplate: false
-description: Robotics graduate student at the University of Utah, working across controls, simulation, and robotic hardware. Seeking PhD opportunities.
-eyebrow: ROBOTICS · CONTROLS · SPACE
+description: Sawyer Greaves studies robotics and mechanical engineering at the University of Utah, with research in rigid-body simulation and magnetic manipulation. Applying to PhD programs in robotics.
+eyebrow: ROBOTICS · DYNAMICS · CONTROL
 name: Sawyer Greaves
-headline: From simulation to robotic systems.
-bio: "I'm a robotics graduate student at the University of Utah. I work across simulation, controls, and hardware, with a long-term goal of building robots that explore space."
-availability: Seeking PhD opportunities
+headline: Modeling and control for space robotics.
+bio: "I'm in the University of Utah's combined B.S./M.S. program in mechanical engineering and robotics. In Prof. Jake Abbott's Magnetic & Medical Robotics Lab, I develop rigid-body simulations and magnetic-wrench models, and conduct experiments on contactless manipulation in microgravity."
+availability: Applying to PhD programs in robotics
 portrait: /images/profile.webp
 portraitAlt: Sawyer Greaves outdoors
 university: University of Utah
-lab: Magnetic and Medical Robotics Lab
+lab: Magnetic & Medical Robotics Lab
 labUrl: https://mmrobotics.mech.utah.edu/
 resume: /files/resume.pdf
-researchEyebrow: GRADUATE RESEARCH
-researchHeading: Exploring contactless manipulation.
+researchEyebrow: FEATURED RESEARCH
+researchHeading: Magnetic manipulation in microgravity
 projectsEyebrow: SELECTED PROJECTS
-projectsHeading: Ideas, built and tested.
-contactEyebrow: LET'S CONNECT
-contactHeading: Looking toward the next research question.
-contactText: "I'm interested in PhD opportunities in robotics and controls, especially work connected to space exploration."
+projectsHeading: Engineering projects
+contactEyebrow: PHD INTERESTS
+contactHeading: Robotics for unstructured environments
+contactText: "For my PhD, I hope to study robotic dynamics, perception, and control, with a long-term goal of developing robots that can explore difficult planetary terrain."
 email: greaves.sawyer@gmail.com
 ---
 

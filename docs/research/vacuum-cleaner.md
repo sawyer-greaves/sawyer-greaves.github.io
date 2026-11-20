@@ -1,33 +1,39 @@
 ---
-title: "Capturing Objects in Microgravity Using Induction"
-description: "Exploring a concept for an open-loop system to capture objects using magnetic induction."
-category: Graduate research
+title: Capturing objects in microgravity using induction
+description: I designed experiments on interactions between nearby conductive objects and brought together prior simulations and experiments for a first-author manuscript on magnetic capture.
+category: Magnetic manipulation
 period: "Started May 2026"
 order: 1
 image: /images/bag.webp
-imageAlt: "Concept image for such a device"
-tags: [Simulation, Robotics, Modeling]
+imageAlt: Concept rendering of rotating magnetic sources around the opening of an object-collection device.
+tags: [Magnetic induction, Experiments, Modeling]
 featured: true
 layout: doc
 ---
 
-# Capturing Objects in Microgravity Using Induction
- 
-**Magnetic and Medical Robotics Lab · University of Utah**  
+# Capturing objects in microgravity using induction
+
+**Magnetic & Medical Robotics Lab · University of Utah**\
 Started May 2026
 
-Can we design a system that can effectively capture conductive objects in microgravity without needing precise knowledge about the shape, position or other properties of the objects?
+This project investigates a collection device that uses magnetic induction to draw conductive objects into a capture region in microgravity. The concept uses multiple rotating magnetic sources to collect objects without tracking and controlling each one individually.
 
-![Concept image for such a device.](/images/bag.webp)
+![Concept rendering of rotating magnetic sources around the opening of an object-collection device.](/images/bag.webp)
 
-## Results and next steps
+## The modeling question
 
-We have definitively shown that such a system is feasible, and can be made more effective by slowing down the rotation frequency of the magnetic sources, in turn increasing the time before capture.
+The capture models treat nearby objects as independent: each object's response is calculated without accounting for interactions with its neighbors. I investigated whether that assumption was reasonable for the objects and conditions we tested.
 
-![2D simulation results.](/images/2D-vacuum-cleaner-results.webp)
+## My contribution
 
-## Research outputs
+Building on work by two previous student researchers, I designed and conducted experiments measuring interactions between nearby conductive objects. The measurements supported the independence assumption under the conditions examined.
 
-The resulting work "Academy Transaction Note: Capturing Objects In Microgravity Using Induction" is currently under revision for resubmission to Acta Astronautica.
+I then brought together the earlier physical capture experiments and numerical simulations, produced figures, and wrote methods and results sections for a first-author manuscript. This involved understanding and communicating both the experimental work and the simulations, as well as incorporating my new measurements.
 
-Related publications and preprints will be listed on the [publications page](../publications.md) as they become available.
+![Planar simulation trajectories comparing object motion under different object properties and magnetic-source settings.](/images/2D-vacuum-cleaner-results.webp)
+
+## Manuscript
+
+I am the first and corresponding author of **“Academy Transaction Note: Capturing Objects in Microgravity Using Induction,”** with C. R. Lambert, K. Dhekar, and J. J. Abbott. The manuscript is **under revision for resubmission to Acta Astronautica**.
+
+Full authorship and status are listed on the [research manuscripts page](../publications.md).

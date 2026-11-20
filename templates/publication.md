@@ -1,7 +1,9 @@
 <!-- Copy the entry below into docs/publications.md. This template is outside
 the published site. Replace all bracketed fields before publishing. Keep only
-links that exist, and use a precise status: Preprint, Accepted, or Published.
-Do not label submitted work as accepted. -->
+links that exist, and use a precise status: In preparation, Under review,
+Under revision for resubmission, Preprint, Accepted, or Published.
+For unsubmitted work, label the venue as intended and omit projected
+publication years. -->
 
 ## [Full paper title]
 

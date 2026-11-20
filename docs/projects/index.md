@@ -1,12 +1,12 @@
 ---
 title: Engineering projects
-description: Selected work in robotics, control systems, mechanical design, and scientific visualization.
+description: Academic and personal engineering projects in robotics, manufacturing automation, mechanical design, and scientific visualization.
 ---
 
 # Engineering projects
 
-I learn by building: mechanisms, circuits, control software, and tools for understanding data. These projects bring those interests together, from autonomous robots to inverse kinematics.
+These academic and personal projects have helped me develop practical experience in mechanical design, electronics, programming, and system integration. They include autonomous robots, a camera-tracking mechanism, an industry-sponsored manufacturing machine, and tools for scientific visualization.
 
 <WorkGrid collection="projects" />
 
-For my work on magnetic manipulation in space, visit [graduate research](../research/).
+For my work on magnetic manipulation, dynamics simulation, and modeling, visit [research](../research/).
